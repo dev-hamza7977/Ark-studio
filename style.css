@@ -1,0 +1,121 @@
+body {
+    background-color: antiquewhite;
+}
+
+
+.logo {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+.list {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    background-color: rgba(255, 255, 255, 0.429);
+}
+
+.head {
+    position: relative;
+    bottom: 995px;
+
+}
+
+.banner-img {
+    width: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+
+
+.img-sen {
+    display: grid;
+    display: inline-grid;
+    grid-template-columns: 800px 200px;
+    grid-column-gap: 494px;
+    grid-template-rows: auto;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.429);
+    padding-right: 10px;
+    position: relative;
+    bottom: 115px;
+
+}
+
+
+
+.have-a-proj {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.in-touch {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+    width: 200px;
+    background-color: rgb(35, 132, 251);
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0px solid rgb(35, 132, 251);
+
+}
+
+.we-are {
+    vertical-align: top;
+    text-align: center;
+    font-size: 30px;
+}
+
+.sep {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: space-between; */
+
+
+}
+
+.objectives {
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.flogo {
+    margin-top: 25px;
+}
+
+.det {
+
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.det-2 {
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-around;
+    flex-direction: row;
+    font-size: 10px;
+    text-align: center;
+}
+
+.ad {
+    display: flex;
+    margin-top: 50px;
+}
+
+.scence {
+    width: 300px;
+}
