@@ -201,7 +201,7 @@ footer {
         width: 97%;
         grid-template-rows: auto auto;
         justify-content: center;
-        background-color: rgba(255, 0, 0, 0.542);
+        background-color: rgba(255, 255, 255, 0.481);
         padding-right: 10px;
         position: relative;
         bottom: 132px;
