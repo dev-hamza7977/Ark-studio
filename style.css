@@ -1,5 +1,5 @@
 body {
-    background-color: antiquewhite;
+    background-color: white;
 
 }
 
@@ -40,7 +40,7 @@ body {
     display: grid;
     display: inline-grid;
     grid-template-columns: 800px 200px;
-    grid-column-gap: 494px;
+    grid-column-gap: 510px;
     grid-template-rows: auto;
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.429);
@@ -50,6 +50,10 @@ body {
 
 }
 
+.mob-head {
+    display: none;
+    visibility: hiiden;
+}
 
 
 .have-a-proj {
@@ -117,6 +121,8 @@ body {
 
 .ad {
     display: flex;
+    justify-content: center;
+    justify-content: space-between;
     margin-top: 50px;
 }
 
@@ -124,16 +130,70 @@ body {
     width: 300px;
 }
 
-/* @media only screen and (min-width:600) {
-    .banner-img {
-        width: 100%;
-        margin-bottom: 0px;
-        padding-bottom: 0px;
-    }
-} */
 
-@media only screen and (max-width: 600px) {
-    .img-sen {
+.sub-test {
+
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.clients {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.client {
+    border-radius: 50px;
+}
+
+span {
+    font-size: 10px;
+    color: rgba(74, 74, 74, 0.821);
+}
+
+
+.foot {
+    background-color: black;
+}
+
+footer {
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    justify-content: space-evenly;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+
+
+.loctaion {
+    text-align: left;
+}
+
+.fo-hea {
+    margin-bottom: 25px;
+}
+
+.rights {
+    text-align: center;
+    color: white;
+    border: 3px solid rgb(67, 67, 67);
+}
+
+
+
+/* mobile designing */
+
+@media only screen and (max-width: 768px) {
+    .mob-head {
         display: grid;
         display: inline-grid;
         grid-template-columns: 350px 200px;
@@ -147,6 +207,11 @@ body {
         bottom: 132px;
         height: 60px;
 
+    }
+
+    .img-sen {
+        display: none;
+        visibility: hiiden;
     }
 
     .in-touch {
@@ -192,5 +257,43 @@ body {
         flex-direction: row;
         text-align: center;
     }
+
+    .head {
+        position: relative;
+        bottom: 500px;
+
+    }
+
+    .clients {
+
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+
+    }
+
+    footer {
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        /* text-align: center; */
+        justify-content: space-between;
+        padding-top: 60px;
+        padding-bottom: 20px;
+        font-size: 5px;
+    }
+
+
+
+    .loctaion {
+        text-align: left;
+    }
+
+    .fo-hea {
+        margin-bottom: 25px;
+    }
+
 
 }
