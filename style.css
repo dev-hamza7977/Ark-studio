@@ -201,7 +201,7 @@ footer {
         width: 97%;
         grid-template-rows: auto auto;
         justify-content: center;
-        background-color: rgba(255, 255, 255, 0.481);
+        background-color: rgba(255, 255, 255, 0.429);
         padding-right: 10px;
         position: relative;
         bottom: 132px;
@@ -283,6 +283,8 @@ footer {
         padding-top: 60px;
         padding-bottom: 20px;
         font-size: 5px;
+        padding-left: 9px;
+        padding-right: 9px;
     }
 
 
