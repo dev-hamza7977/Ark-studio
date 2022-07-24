@@ -1,5 +1,13 @@
 body {
     background-color: antiquewhite;
+
+}
+
+
+.banner-img {
+    width: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 
@@ -24,11 +32,7 @@ body {
 
 }
 
-.banner-img {
-    width: 100%;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-}
+
 
 
 
@@ -118,4 +122,53 @@ body {
 
 .scence {
     width: 300px;
+}
+
+@media only screen and (min-width:600) {
+    .banner-img {
+        width: 100%;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .img-sen {
+        display: grid;
+        display: inline-grid;
+        grid-template-columns: 200px 200px;
+        grid-column-gap: 494px;
+        grid-template-rows: auto;
+        justify-content: center;
+        background-color: rgba(255, 255, 255, 0.429);
+        padding-right: 10px;
+        position: relative;
+        bottom: 115px;
+
+    }
+
+
+    .logo {
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        top: 10px;
+        left: 30px;
+    }
+
+    .list {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 30px;
+        background-color: rgba(255, 255, 255, 0.429);
+    }
+
+    .head {
+        position: relative;
+        bottom: 995px;
+
+    }
+
+    .ad {
+        display: flex;
+        margin-top: 50px;
+    }
 }
