@@ -130,12 +130,19 @@ body {
         margin-bottom: 0px;
         padding-bottom: 0px;
     }
+}
+
+
+
+@media only screen and (min-width:600px) {
+
+
 
     .img-sen {
         display: grid;
         display: inline-grid;
-        grid-template-columns: 200px 200px;
-        grid-column-gap: 494px;
+        grid-template-columns: 800px 200px;
+        grid-column-gap: 10px;
         grid-template-rows: auto;
         justify-content: center;
         background-color: rgba(255, 255, 255, 0.429);
@@ -143,32 +150,7 @@ body {
         position: relative;
         bottom: 115px;
 
-    }
 
 
-    .logo {
-        height: 50px;
-        width: 50px;
-        position: absolute;
-        top: 10px;
-        left: 30px;
-    }
-
-    .list {
-        display: flex;
-        justify-content: flex-end;
-        padding-right: 30px;
-        background-color: rgba(255, 255, 255, 0.429);
-    }
-
-    .head {
-        position: relative;
-        bottom: 995px;
-
-    }
-
-    .ad {
-        display: flex;
-        margin-top: 50px;
     }
 }
