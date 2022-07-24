@@ -124,33 +124,50 @@ body {
     width: 300px;
 }
 
-@media only screen and (min-width:600) {
+/* @media only screen and (min-width:600) {
     .banner-img {
         width: 100%;
         margin-bottom: 0px;
         padding-bottom: 0px;
     }
-}
+} */
 
-
-
-@media only screen and (min-width:600px) {
-
-
-
+@media only screen and (max-width: 600px) {
     .img-sen {
         display: grid;
         display: inline-grid;
-        grid-template-columns: 800px 200px;
-        grid-column-gap: 10px;
-        grid-template-rows: auto;
+        grid-template-columns: 350px 200px;
+        grid-column-gap: 0px;
+        width: 97%;
+        grid-template-rows: auto auto;
         justify-content: center;
-        background-color: rgba(255, 255, 255, 0.429);
+        background-color: rgba(255, 255, 255, 0.542);
         padding-right: 10px;
         position: relative;
-        bottom: 115px;
+        bottom: 132px;
+        height: 60px;
+
+    }
+
+    .in-touch {
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 45px;
+        width: 80px;
+        background-color: rgb(35, 132, 251);
+        color: white;
+        font-size: 09px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 0px solid rgb(35, 132, 251);
+    }
 
 
 
+    .mob {
+
+        font-size: 10px;
+        padding-top: 15px;
+        padding-left: 120px;
     }
 }
