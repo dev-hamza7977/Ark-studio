@@ -241,61 +241,68 @@ footer {
 
     .ad {
         display: flex;
+        /* justify-content: space-evenly; */
         margin-top: 50px;
+        /* width: 100%; */
     }
 
     .scence {
-        width: 80px;
+        width: 19%;
+
+
+        .det {
+
+            display: flex;
+            /* justify-content: center; */
+            justify-content: space-around;
+            flex-direction: row;
+            text-align: center;
+        }
+
+        .head {
+            position: relative;
+            bottom: 500px;
+
+        }
+
+        .clients {
+
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+            /* text-align: center; */
+            justify-content: space-between;
+            padding-top: 60px;
+            padding-bottom: 20px;
+            font-size: 5px;
+            padding-left: 9px;
+            padding-right: 9px;
+        }
+
+
+
+        .loctaion {
+            text-align: left;
+        }
+
+        .fo-hea {
+            margin-bottom: 25px;
+        }
+
+        .banner-img {
+            width: 100%;
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+        }
+
+
     }
-
-
-    .det {
-
-        display: flex;
-        /* justify-content: center; */
-        justify-content: space-around;
-        flex-direction: row;
-        text-align: center;
-    }
-
-    .head {
-        position: relative;
-        bottom: 500px;
-
-    }
-
-    .clients {
-
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        flex-direction: column;
-
-    }
-
-    footer {
-        background-color: black;
-        color: white;
-        display: flex;
-        justify-content: center;
-        /* text-align: center; */
-        justify-content: space-between;
-        padding-top: 60px;
-        padding-bottom: 20px;
-        font-size: 5px;
-        padding-left: 9px;
-        padding-right: 9px;
-    }
-
-
-
-    .loctaion {
-        text-align: left;
-    }
-
-    .fo-hea {
-        margin-bottom: 25px;
-    }
-
-
-}
