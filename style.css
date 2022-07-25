@@ -27,14 +27,13 @@ body {
     display: flex;
     justify-content: flex-end;
     padding-right: 30px;
-    
-   
+
+
 }
 
-.nav{
-    display:flex;
-    /* display:inline-flex; */
-    justify-content:space-between;
+.nav {
+    display: flex;
+    justify-content: space-between;
     background-color: rgba(255, 255, 255, 0.429);
 
 }
@@ -46,10 +45,10 @@ body {
 
 }
 
-.name{
+.name {
     margin-top: 0px;
     margin-right: 15px;
-    margin-left:15px;
+    margin-left: 15px;
 }
 
 
@@ -70,15 +69,9 @@ body {
     position: relative;
     bottom: 115px;
 
-    
+
 
 }
-
-.mob-head {
-    display: none;
-    visibility: hidden;
-}
-
 
 .have-a-proj {
     padding-top: 10px;
@@ -95,8 +88,8 @@ body {
     font-size: 12px;
     /* margin-bottom:20px; */
     border: 0px solid rgb(35, 132, 251);
-    
-    
+
+
 
 }
 
@@ -220,41 +213,53 @@ footer {
 /* mobile designing */
 
 @media only screen and (max-width: 768px) {
-    .mob-head {
-        display: grid;
-        display: inline-grid;
-        grid-template-columns: 350px 200px;
-        grid-column-gap: 10px;
-        width: 97%;
-        grid-template-rows: auto auto;
-        justify-content: center;
-        background-color: rgba(255, 255, 255, 0.429);
-        padding-right: 10px;
-        position: relative;
-        bottom: 132px;
-        height: 60px;
 
+
+
+    .nav {
+        display: none;
+        visibility: hidden;
     }
 
     .img-sen {
-        display: none;
-        visibility: hiiden;
+        /* display: grid;
+        display: inline-grid;
+        grid-template-columns: 800px 200px;
+        grid-column-gap: 510px;
+        grid-template-rows: auto; */
+        display: flex;
+        justify-content: flex-end;
+        /* align-items: top; */
+        /* justify-content: center; */
+        background-color: rgba(255, 255, 255, 0.429);
+        padding: 5px;
+        position: absolute;
+        bottom: 68%;
+
+
+
+    }
+
+    .have-a-proj {
+        /* padding-top: 10px;
+        padding-left: 10px; */
+        margin-right: 80px;
     }
 
     .in-touch {
         padding-left: 20px;
         padding-right: 20px;
-        height: 45px;
-        width: 80px;
+        height: 40px;
+        width: 100px;
         background-color: rgb(35, 132, 251);
         color: white;
-        font-size: 09px;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        font-size: 12px;
+        /* margin-bottom:20px; */
         border: 0px solid rgb(35, 132, 251);
+        margin-right: 20px;
+
+
     }
-
-
 
     .mob {
 
