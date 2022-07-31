@@ -3,23 +3,48 @@ body {
 
 }
 
+a {
+    text-decoration: none;
+    color: #000;
+}
 
-.banner-img {
-    width: 100%;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+a:hover {
+    color: rgb(179, 179, 179);
+}
+
+.site-header {
+    border-bottom: 1px solid #ccc;
+    padding: .5em 1em;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.site-identity h1 {
+    font-size: 1.5em;
+    margin: .6em 0;
+    display: inline-block;
+}
+
+.site-navigation ul,
+.site-navigation li {
+    margin: 0;
+    padding: 0;
+}
+
+.site-navigation li {
+    display: inline-block;
+    margin: 1.4em 1em 1em 1em;
 }
 
 
+
 .logo {
-    display: inline-block;
     height: 60px;
     width: 60px;
     padding-left: 20px;
     padding-top: 0px;
-    /* position: absolute;
-    top: 10px;
-    left: 30px; */
+
 }
 
 .list {
@@ -55,19 +80,14 @@ body {
 
 
 .img-sen {
-    /* display: grid;
-    display: inline-grid;
-    grid-template-columns: 800px 200px;
-    grid-column-gap: 510px;
-    grid-template-rows: auto; */
     display: flex;
     justify-content: space-between;
     align-items: top;
-    /* justify-content: center; */
-    background-color: rgba(255, 255, 255, 0.429);
+    background-color: rgba(255, 255, 255, 0.414);
     padding: 5px;
-    position: relative;
-    bottom: 115px;
+    position: absolute;
+    top: 10%;
+    width: 100%;
 
 
 
@@ -212,7 +232,7 @@ footer {
 
 /* mobile designing */
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (min-width: 768px) {
 
 
 
@@ -221,14 +241,7 @@ footer {
         visibility: hidden;
     }
 
-    .img-sen {
-        display: flex;
-        justify-content: space-between;
-        height: 60px;
-        width: 98%;
-        position: relative;
-        top: 0px;
-    }
+    
 
 
     .in-touch {
@@ -239,7 +252,6 @@ footer {
         background-color: rgb(35, 132, 251);
         color: white;
         font-size: 12px;
-        /* margin-bottom:20px; */
         border: 0px solid rgb(35, 132, 251);
         margin-right: 20px;
 
@@ -258,9 +270,7 @@ footer {
 
     .ad {
         display: flex;
-        /* justify-content: space-evenly; */
         margin-top: 50px;
-        /* width: 100%; */
     }
 
     .scence {
@@ -270,7 +280,6 @@ footer {
 
     .det {
         display: flex;
-        /* justify-content: center; */
         justify-content: space-around;
         flex-direction: row;
         text-align: center;
@@ -300,7 +309,6 @@ footer {
         color: white;
         display: flex;
         justify-content: center;
-        /* text-align: center; */
         justify-content: space-between;
         padding-top: 60px;
         padding-bottom: 20px;
@@ -326,4 +334,4 @@ footer {
     }
 
 
-}
+} */
